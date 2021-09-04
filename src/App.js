@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Promesas from "./Promesas"
 import "./style.css";
 
 export default function App() {
@@ -15,6 +15,8 @@ export default function App() {
       <p>Contador de click: {count}</p>
       <button onClick={()=>Contador()}>Click</button>
       <p>Hora: {time}</p>
+      <hr/>
+      <Promesas/>
     </div>
   );
 }
